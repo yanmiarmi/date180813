@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.box{
+			width: 500px;
+			height: 32px;
+			margin:100px auto;
+		}
+		ul{
+			width: 500px;
+			display: flex;
+			justify-content: space-between;
+		}
+		li{
+			float: left;
+			list-style: none;
+			width: 80px;
+			height: 30px;
+			line-height: 30px;
+			background: #ccc;
+			text-align: center;
+		}
+		i{	
+			display: block;
+			width: 2px;
+			height: 2px;
+			background: #fff;
+			margin: auto;	
+		}
+		li:hover i{
+			transform: scaleX(40);
+			background: red;
+			transition: 0.4s;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<ul>
+			<li>首页<i></i></li>
+			<li>服装<i></i></li>
+			<li>箱包<i></i></li>
+			<li>化妆品<i></i></li>
+			<li>奢侈品<i></i></li>
+			<li>生鲜<i></i></li>
+		</ul>
+	</div>
+</body>
+</html>
